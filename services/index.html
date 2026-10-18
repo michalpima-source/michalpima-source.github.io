@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>מיכל פימה בשן – AI לעסקים קטנים</title>
+<meta name="description" content="יש לכם עסק קטן? אני בונה כלי AI קטנים שחוסכים שעות כל שבוע: עוזר שעונה ללקוחות, אוטומציות, הצעות מחיר בדקות והדרכה אישית.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="מיכל פימה בשן – AI לעסקים קטנים">
+<meta property="og:description" content="יש לכם עסק קטן? אני בונה כלי AI קטנים שחוסכים שעות כל שבוע: עוזר שעונה ללקוחות, אוטומציות, הצעות מחיר בדקות והדרכה אישית.">
+<meta property="og:url" content="https://michalpima-source.github.io/services/">
+<meta property="og:image" content="https://michalpima-source.github.io/profile.jpg">
+<meta property="og:locale" content="he_IL">
+<meta name="theme-color" content="#C92A74">
+<link rel="icon" href="../profile.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Secular+One&amp;family=Rubik:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#FFF4FA}
+a{color:#B02A6C}a:hover{color:#7B3FE4}
+@keyframes drift1{50%{transform:translate(70px,40px) scale(1.12)}}
+@keyframes drift2{50%{transform:translate(-60px,-30px) scale(1.18)}}
+@keyframes twinkle{0%,100%{transform:scale(.4) rotate(0);opacity:.25}50%{transform:scale(1.15) rotate(45deg);opacity:1}}
+@keyframes bob{50%{transform:translateY(-12px)}}
+@keyframes shimmer{to{background-position:200% center}}
+@keyframes pop{from{opacity:0;transform:translateY(14px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes dots{0%,80%,100%{opacity:.25;transform:translateY(0)}40%{opacity:1;transform:translateY(-4px)}}
+@keyframes flow{to{background-position:-40px 0}}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(214,51,127,.45)}50%{box-shadow:0 0 0 12px rgba(214,51,127,0)}}
+@keyframes fill{from{width:0}}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.spark{position:absolute;clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);animation:twinkle 2.6s ease-in-out infinite;pointer-events:none}
+.shine{background:linear-gradient(90deg,#D6337F,#8B4FF0,#FF7BB8,#D6337F);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 4s linear infinite}
+.btn{background:linear-gradient(110deg,#C92A74,#7B3FE4,#C92A74);background-size:200% auto;animation:shimmer 5s linear infinite;transition:transform .2s}
+.btn:hover{transform:translateY(-3px) scale(1.03);color:#FFFFFF}
+.lift{transition:transform .25s,box-shadow .25s}
+.lift:hover{transform:translateY(-6px) rotate(-.6deg);box-shadow:0 22px 40px -18px rgba(123,63,228,.55)}
+.msg{opacity:0;animation:pop .5s ease forwards}
+.rise{animation:rise .8s ease both}
+.bob{animation:bob 5s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.msg{opacity:1}}
+</style>
+<style>*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth}</style>
+</head>
+<body>
+<div dir="rtl" lang="he" style="font-family: 'Rubik', system-ui, sans-serif; color: #2A1240; background: #FFF4FA; font-size: 18px; line-height: 1.6; overflow: hidden">
+
+<!-- ═════ HERO ═════ -->
+<div style="position: relative; overflow: hidden; background: linear-gradient(160deg, #FFE3F1 0%, #F1E6FF 55%, #FFF4FA 100%)">
+<div aria-hidden="true" style="position: absolute; width: 460px; height: 460px; border-radius: 50%; background: #FF9ECB; filter: blur(70px); opacity: .55; top: -160px; right: -120px; animation: drift1 16s ease-in-out infinite"></div>
+<div aria-hidden="true" style="position: absolute; width: 420px; height: 420px; border-radius: 50%; background: #B99BFF; filter: blur(70px); opacity: .55; bottom: -180px; left: -80px; animation: drift2 19s ease-in-out infinite"></div>
+<i class="spark" aria-hidden="true" style="width: 22px; height: 22px; background: #D6337F; top: 120px; right: 46%"></i>
+<i class="spark" aria-hidden="true" style="width: 14px; height: 14px; background: #7B3FE4; top: 300px; right: 8%; animation-delay: .7s"></i>
+<i class="spark" aria-hidden="true" style="width: 18px; height: 18px; background: #FFB800; bottom: 90px; right: 30%; animation-delay: 1.3s"></i>
+<i class="spark" aria-hidden="true" style="width: 12px; height: 12px; background: #D6337F; top: 70px; left: 12%; animation-delay: 1.9s"></i>
+<i class="spark" aria-hidden="true" style="width: 26px; height: 26px; background: #8B4FF0; bottom: 160px; left: 6%; animation-delay: .4s"></i>
+
+<!-- top bar -->
+<div style="position: relative; max-width: 1180px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 10px">
+<img src="../profile.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; border: 2px solid #FFFFFF; box-shadow: 0 0 0 2px #D6337F">
+<span style="font-family: 'Secular One', 'Rubik', sans-serif; font-size: 22px">מיכל פימה בשן</span>
+</div>
+<a href="https://wa.me/972507167357?text=%D7%94%D7%99%D7%99%20%D7%9E%D7%99%D7%9B%D7%9C%2C%20%D7%A8%D7%90%D7%99%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%93%D7%A3%20%D7%A9%D7%9C%D7%9A" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border-radius: 999px; background: rgba(255,255,255,.75); border: 1.5px solid #E7C8F2; color: #2A1240; text-decoration: none; font-weight: 500; font-size: 16px">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>
+וואטסאפ
+</a>
+</div>
+
+<div style="position: relative; max-width: 1180px; margin: 0 auto; padding: 28px 24px 88px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<div class="rise" style="flex: 999 1 500px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<div style="align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; background: #FFFFFF; color: #2A1240; border-radius: 999px; padding: 6px 16px 6px 8px; font-size: 15px; font-weight: 500; box-shadow: 0 6px 18px -8px rgba(123,63,228,.5)">
+<span style="width: 10px; height: 10px; border-radius: 50%; background: #D6337F; animation: pulse 2s infinite"></span>
+היי, אני מיכל, השכנה מהבניין
+</div>
+<h1 style="margin: 0; font-family: 'Secular One', 'Rubik', sans-serif; font-weight: 400; font-size: clamp(38px, 5.4vw, 66px); line-height: 1.12">יש לכם עסק קטן? אני עוזרת לו <span class="shine">לעבוד פחות קשה</span> בעזרת AI.</h1>
+<p style="margin: 0; font-size: 20px; max-width: 34em; color: #4D3A63">בלי מילים מפחידות ובלי פרויקט של חצי שנה. אני בונה כלים קטנים שחוסכים לכם שעות כל שבוע, ומלמדת אתכם להשתמש בהם עד שזה מרגיש טבעי.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px">
+<a class="btn" href="https://wa.me/972507167357?text=%D7%94%D7%99%D7%99%20%D7%9E%D7%99%D7%9B%D7%9C%2C%20%D7%A8%D7%90%D7%99%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%93%D7%A3%20%D7%A9%D7%9C%D7%9A" style="display: inline-flex; align-items: center; gap: 10px; min-height: 54px; padding: 0 28px; border-radius: 999px; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; box-shadow: 0 12px 26px -10px rgba(201,42,116,.7)">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>
+כתבו לי בוואטסאפ
+</a>
+<a href="#work" style="display: inline-flex; align-items: center; min-height: 54px; padding: 0 22px; border-radius: 999px; color: #2A1240; background: rgba(255,255,255,.7); text-decoration: none; font-weight: 500">תראי לי מה בנית ←</a>
+</div>
+</div>
+
+<!-- Phone: WhatsApp bot mockup -->
+<div style="flex: 1 1 320px; display: flex; justify-content: center">
+<div class="bob" style="position: relative; width: 320px; max-width: 100%">
+<i class="spark" aria-hidden="true" style="width: 30px; height: 30px; background: #FFB800; top: -14px; left: -10px; animation-delay: .9s"></i>
+<div role="img" aria-label="המחשה: בוט וואטסאפ שעונה ללקוחה על מחיר ומקום פנוי" style="border-radius: 42px; background: #2A1240; padding: 12px; box-shadow: 0 40px 70px -30px rgba(91,33,182,.75)">
+<div style="border-radius: 32px; overflow: hidden; background: #EFE7DE">
+<div style="background: #1F5C4F; color: #FFFFFF; padding: 14px 16px; display: flex; align-items: center; gap: 10px">
+<div style="width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg,#FF7BB8,#8B4FF0); display: grid; place-items: center; font-weight: 700; font-size: 15px">ס</div>
+<div style="line-height: 1.25"><div style="font-weight: 700; font-size: 15px">סטודיו יוגה שלי</div><div style="font-size: 12px; opacity: .8">עוזר אוטומטי · מחובר</div></div>
+</div>
+<div style="padding: 14px 12px 18px; display: flex; flex-direction: column; gap: 8px; min-height: 360px; font-size: 14.5px; line-height: 1.45">
+<div class="msg" style="align-self: flex-start; background: #FFFFFF; border-radius: 12px 12px 12px 4px; padding: 8px 12px; max-width: 80%; animation-delay: .4s">היי, כמה עולה שיעור ניסיון? יש מקום ביום שלישי?</div>
+<div class="msg" style="align-self: flex-end; display: flex; gap: 4px; background: #D9FDD3; border-radius: 12px; padding: 10px 14px; animation-delay: 1.2s">
+<span style="width: 7px; height: 7px; border-radius: 50%; background: #1F5C4F; animation: dots 1s infinite"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #1F5C4F; animation: dots 1s .15s infinite"></span><span style="width: 7px; height: 7px; border-radius: 50%; background: #1F5C4F; animation: dots 1s .3s infinite"></span>
+</div>
+<div class="msg" style="align-self: flex-end; background: #D9FDD3; border-radius: 12px 12px 4px 12px; padding: 8px 12px; max-width: 84%; animation-delay: 2.2s">שיעור ניסיון עולה 40 ₪ 🙂 ביום שלישי נשארו 2 מקומות, ב-18:00 וב-19:30.</div>
+<div class="msg" style="align-self: flex-end; background: #D9FDD3; border-radius: 12px 12px 4px 12px; padding: 8px 12px; max-width: 84%; animation-delay: 3s">לשריין לך מקום?</div>
+<div class="msg" style="align-self: flex-start; background: #FFFFFF; border-radius: 12px 12px 12px 4px; padding: 8px 12px; animation-delay: 4s">כן! 19:30</div>
+<div class="msg" style="align-self: flex-end; background: #D9FDD3; border-radius: 12px 12px 4px 12px; padding: 8px 12px; max-width: 84%; animation-delay: 4.9s">סגור ✔ שלחתי לך תזכורת ליום שלישי.</div>
+</div>
+</div>
+</div>
+<div class="msg" style="position: absolute; bottom: 40px; right: -44px; background: #FFFFFF; border-radius: 16px; padding: 10px 14px; font-size: 13.5px; line-height: 1.3; box-shadow: 0 14px 30px -12px rgba(123,63,228,.6); animation-delay: 5.6s">
+<b style="color: #C92A74">+1 לקוחה ביומן</b><br>בלי שנגעתם בטלפון
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- ═════ PAINS ═════ -->
+<div style="position: relative; background: #2A1240; color: #FBF3FF; overflow: hidden">
+<i class="spark" aria-hidden="true" style="width: 16px; height: 16px; background: #FF7BB8; top: 50px; left: 18%"></i>
+<i class="spark" aria-hidden="true" style="width: 12px; height: 12px; background: #C4A8FF; bottom: 60px; right: 12%; animation-delay: 1.1s"></i>
+<i class="spark" aria-hidden="true" style="width: 20px; height: 20px; background: #FFD45C; top: 40%; right: 4%; animation-delay: .5s"></i>
+<div style="position: relative; max-width: 1180px; margin: 0 auto; padding: 76px 24px; display: flex; flex-direction: column; gap: 32px">
+<h2 style="margin: 0; font-family: 'Secular One', sans-serif; font-weight: 400; font-size: clamp(30px, 3.8vw, 46px)">נשמע לכם <span class="shine">מוכר?</span></h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
+<div class="lift" style="background: rgba(255,255,255,.06); border: 1.5px solid #5A3D7A; border-radius: 22px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'Secular One', sans-serif; font-size: 40px; color: #FF7BB8; line-height: 1">"</div>
+<div>עונים על אותן שאלות בוואטסאפ עשרים פעם ביום. מה המחיר, מתי פתוח, יש מקום ביום שלישי?</div>
+</div>
+<div class="lift" style="background: rgba(255,255,255,.06); border: 1.5px solid #5A3D7A; border-radius: 22px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'Secular One', sans-serif; font-size: 40px; color: #C4A8FF; line-height: 1">"</div>
+<div>מעתיקים פרטים מטפסים, מהודעות ומהמייל לאקסל. ידנית. כל ערב.</div>
+</div>
+<div class="lift" style="background: rgba(255,255,255,.06); border: 1.5px solid #5A3D7A; border-radius: 22px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'Secular One', sans-serif; font-size: 40px; color: #FFD45C; line-height: 1">"</div>
+<div>הצעת מחיר אחת לוקחת חצי ערב, ופוסט לאינסטגרם עוד חצי.</div>
+</div>
+<div class="lift" style="background: rgba(255,255,255,.06); border: 1.5px solid #5A3D7A; border-radius: 22px; padding: 22px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-family: 'Secular One', sans-serif; font-size: 40px; color: #FF7BB8; line-height: 1">"</div>
+<div>כולם מדברים על ChatGPT, אבל לא ברור מה בדיוק עושים איתו בעסק שלכם.</div>
+</div>
+</div>
+<p style="margin: 0; font-size: 20px; color: #D9C8EE">את כל אלה אפשר לסדר. לרוב עם כלי אחד קטן ונכון, לא עם מערכת ענקית.</p>
+</div>
+</div>
+
+<!-- ═════ SERVICES ═════ -->
+<div id="services" style="max-width: 1180px; margin: 0 auto; padding: 84px 24px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 8px; max-width: 40em">
+<h2 style="margin: 0; font-family: 'Secular One', sans-serif; font-weight: 400; font-size: clamp(30px, 3.8vw, 46px)">מה אני יכולה לבנות בשבילכם</h2>
+<p style="margin: 0; color: #4D3A63">כל אחד מאלה מותאם לעסק שלכם, לכלים שכבר יש לכם ולאיך שאתם עובדים.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px">
+
+<div class="lift" style="background: #FFFFFF; border-radius: 26px; padding: 26px; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 10px 30px -18px rgba(123,63,228,.45)">
+<div style="width: 54px; height: 54px; border-radius: 18px; background: linear-gradient(135deg,#FFD1E6,#FFB3D6); display: grid; place-items: center">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#9C1F5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path><path d="M8 9h8M8 13h5"></path></svg>
+</div>
+<h3 style="margin: 0; font-size: 22px; font-weight: 700">עוזר שעונה ללקוחות</h3>
+<p style="margin: 0; color: #4D3A63">צ'אטבוט שמכיר את העסק שלכם: מחירים, שעות, שאלות נפוצות. עונה מיד, גם בלילה, ומעביר אליכם רק את מה שבאמת צריך אתכם.</p>
+</div>
+
+<div class="lift" style="background: #FFFFFF; border-radius: 26px; padding: 26px; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 10px 30px -18px rgba(123,63,228,.45)">
+<div style="width: 54px; height: 54px; border-radius: 18px; background: linear-gradient(135deg,#E5D8FF,#CDB6FF); display: grid; place-items: center">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#5B21B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h11M4 7l3-3M4 7l3 3"></path><path d="M20 17H9M20 17l-3-3M20 17l-3 3"></path></svg>
+</div>
+<h3 style="margin: 0; font-size: 22px; font-weight: 700">אוטומציות לעבודה הידנית</h3>
+<p style="margin: 0; color: #4D3A63">לקוח ממלא טופס, והפרטים נכנסים לבד לטבלה, נשלח לו אישור ונקבעת תזכורת. בלי להעתיק ובלי לשכוח.</p>
+</div>
+
+<div class="lift" style="background: #FFFFFF; border-radius: 26px; padding: 26px; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 10px 30px -18px rgba(123,63,228,.45)">
+<div style="width: 54px; height: 54px; border-radius: 18px; background: linear-gradient(135deg,#FFE3F1,#F6C6FF); display: grid; place-items: center">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#9C1F5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5M9 13h6M9 17h4"></path></svg>
+</div>
+<h3 style="margin: 0; font-size: 22px; font-weight: 700">הצעות מחיר ותוכן בדקות</h3>
+<p style="margin: 0; color: #4D3A63">עוזר AI שמכיר את השירותים שלכם ואת הטון שלכם, ומכין טיוטה להצעת מחיר, למייל או לפוסט. אתם רק עוברים ומאשרים.</p>
+</div>
+
+<div class="lift" style="background: #FFFFFF; border-radius: 26px; padding: 26px; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 10px 30px -18px rgba(123,63,228,.45)">
+<div style="width: 54px; height: 54px; border-radius: 18px; background: linear-gradient(135deg,#E5D8FF,#FFD1E6); display: grid; place-items: center">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#5B21B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M3 9h18M8 14h3"></path></svg>
+</div>
+<h3 style="margin: 0; font-size: 22px; font-weight: 700">דף לעסק או אפליקציה קטנה</h3>
+<p style="margin: 0; color: #4D3A63">דף נחיתה, מערכת לקביעת תורים, מעקב אחרי לקוחות או הזמנות. בדיוק בגודל שהעסק צריך, בלי לשלם על מה שלא תשתמשו בו.</p>
+</div>
+
+<div class="lift" style="background: #FFFFFF; border-radius: 26px; padding: 26px; display: flex; flex-direction: column; gap: 10px; box-shadow: 0 10px 30px -18px rgba(123,63,228,.45)">
+<div style="width: 54px; height: 54px; border-radius: 18px; background: linear-gradient(135deg,#F6C6FF,#CDB6FF); display: grid; place-items: center">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#5B21B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"></path><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"></path></svg>
+</div>
+<h3 style="margin: 0; font-size: 22px; font-weight: 700">הדרכה אישית ל-AI</h3>
+<p style="margin: 0; color: #4D3A63">מפגש מעשי, לכם או לצוות, על המשימות האמיתיות שלכם. יוצאים עם כלים שעובדים, לא עם מצגת.</p>
+</div>
+
+<div class="lift" style="position: relative; overflow: hidden; background: linear-gradient(135deg,#C92A74,#7B3FE4); color: #FFFFFF; border-radius: 26px; padding: 26px; display: flex; flex-direction: column; gap: 12px; justify-content: center">
+<i class="spark" aria-hidden="true" style="width: 18px; height: 18px; background: #FFD45C; top: 18px; left: 22px"></i>
+<i class="spark" aria-hidden="true" style="width: 11px; height: 11px; background: #FFFFFF; bottom: 26px; left: 60px; animation-delay: 1s"></i>
+<h3 style="margin: 0; font-size: 22px; font-weight: 700">לא בטוחים מה מתאים לכם?</h3>
+<p style="margin: 0">זה בסדר גמור. ספרו לי מה גוזל לכם הכי הרבה זמן, ונחשוב יחד.</p>
+<a href="https://wa.me/972507167357?text=%D7%94%D7%99%D7%99%20%D7%9E%D7%99%D7%9B%D7%9C%2C%20%D7%A8%D7%90%D7%99%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%93%D7%A3%20%D7%A9%D7%9C%D7%9A" style="align-self: flex-start; display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 999px; background: #FFFFFF; color: #2A1240; text-decoration: none; font-weight: 700">בואו נדבר</a>
+</div>
+
+</div>
+</div>
+
+<!-- ═════ WORK SHOWCASE ═════ -->
+<div id="work" style="position: relative; background: linear-gradient(180deg, #F1E6FF 0%, #FFE3F1 100%); overflow: hidden">
+<i class="spark" aria-hidden="true" style="width: 20px; height: 20px; background: #D6337F; top: 90px; left: 10%"></i>
+<i class="spark" aria-hidden="true" style="width: 14px; height: 14px; background: #7B3FE4; top: 38%; right: 3%; animation-delay: .8s"></i>
+<i class="spark" aria-hidden="true" style="width: 24px; height: 24px; background: #FFB800; bottom: 22%; left: 4%; animation-delay: 1.5s"></i>
+<div style="position: relative; max-width: 1180px; margin: 0 auto; padding: 84px 24px; display: flex; flex-direction: column; gap: 64px">
+<div style="display: flex; flex-direction: column; gap: 8px; max-width: 40em">
+<div style="align-self: flex-start; background: #FFFFFF; border-radius: 999px; padding: 4px 14px; font-size: 14px; font-weight: 500; color: #9C1F5C">✦ מהסדנה שלי</div>
+<h2 style="margin: 0; font-family: 'Secular One', sans-serif; font-weight: 400; font-size: clamp(30px, 3.8vw, 46px)">דברים <span class="shine">שבניתי</span>, ככה הם נראים</h2>
+<p style="margin: 0; color: #4D3A63">כלים אמיתיים שבניתי ושעובדים היום. הצילומים הם המחשה, עם נתונים לדוגמה.</p>
+</div>
+
+<!-- Sales agent -->
+<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
+<div style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 15px; font-weight: 700; color: #C92A74">סוכן מכירות AI</div>
+<h3 style="margin: 0; font-family: 'Secular One', sans-serif; font-weight: 400; font-size: 32px; line-height: 1.2">פנייה נכנסת, והצעת מחיר מוכנה כמעט לבד</h3>
+<p style="margin: 0; color: #4D3A63">הסוכן מכיר את המוצרים, המחירים והטון של העסק. מדביקים את מה שהלקוח כתב, ומקבלים טיוטה מסודרת שרק צריך לעבור עליה.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px">
+<span style="background: #FFFFFF; border-radius: 14px; padding: 6px 14px; font-weight: 700"><span class="shine" dir="ltr">20→3</span> דקות להצעה</span>
+<span style="background: #FFFFFF; border-radius: 14px; padding: 6px 14px; font-weight: 700"><span class="shine">100%</span> מענה תוך 24 שעות</span>
+</div>
+</div>
+<div style="flex: 999 1 460px; min-width: 0; display: flex; justify-content: center">
+<div class="bob" role="img" aria-label="המחשה: חלון של סוכן מכירות שמכין טיוטת הצעת מחיר" style="width: 100%; max-width: 560px; background: #FFFFFF; border-radius: 22px; box-shadow: 0 34px 60px -30px rgba(91,33,182,.6); overflow: hidden; animation-duration: 6s">
+<div style="display: flex; align-items: center; gap: 8px; padding: 12px 16px; background: #FBF5FF; border-bottom: 1px solid #EEDFF8">
+<span style="width: 11px; height: 11px; border-radius: 50%; background: #FF8FB1"></span><span style="width: 11px; height: 11px; border-radius: 50%; background: #FFD45C"></span><span style="width: 11px; height: 11px; border-radius: 50%; background: #B6E3C8"></span>
+<span style="margin-inline-start: 8px; font-size: 13px; color: #6B5884; font-weight: 500">סוכן הצעות מחיר</span>
+</div>
+<div style="padding: 18px; display: flex; flex-direction: column; gap: 12px; font-size: 14.5px; line-height: 1.5">
+<div style="align-self: flex-start; background: #F3ECFA; border-radius: 14px; padding: 10px 14px; max-width: 90%"><b style="font-size: 12px; color: #6B5884">פנייה מלקוח</b><br>"צריכים צילום לאירוע חברה ב-12/11, בערך 80 איש, 3 שעות. כמה זה?"</div>
+<div style="display: flex; align-items: center; gap: 8px; font-size: 13px; color: #7B3FE4; font-weight: 500">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.8L20 10l-6.1 1.2L12 17l-1.9-5.8L4 10l6.1-1.2z"></path></svg>
+מכינה טיוטה לפי המחירון והטון שלך…
+</div>
+<div style="border: 1.5px solid #EEDFF8; border-radius: 14px; padding: 14px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-weight: 700">הצעת מחיר · אירוע חברה</div>
+<div style="display: flex; justify-content: space-between; gap: 12px"><span>צילום אירוע, 3 שעות</span><span dir="ltr">₪[מחיר]</span></div>
+<div style="display: flex; justify-content: space-between; gap: 12px"><span>גלריה ערוכה תוך 5 ימים</span><span>כלול</span></div>
+<div style="display: flex; justify-content: space-between; gap: 12px; color: #6B5884"><span>תוספת: תחנת צילום</span><span>אופציונלי</span></div>
+<div style="height: 8px; border-radius: 999px; background: #F3ECFA; overflow: hidden; margin-top: 4px"><div style="height: 100%; width: 100%; border-radius: 999px; background: linear-gradient(90deg,#C92A74,#7B3FE4); animation: fill 2.4s ease-out infinite alternate"></div></div>
+</div>
+<div style="display: flex; gap: 8px; flex-wrap: wrap">
+<span style="background: linear-gradient(110deg,#C92A74,#7B3FE4); color: #FFFFFF; border-radius: 999px; padding: 6px 16px; font-weight: 700; font-size: 13.5px">שלחי ללקוח</span>
+<span style="background: #F3ECFA; border-radius: 999px; padding: 6px 16px; font-size: 13.5px">ערכי</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Meeting summary -->
+<div style="display: flex; flex-wrap: wrap-reverse; gap: 40px; align-items: center">
+<div style="flex: 999 1 460px; min-width: 0; display: flex; justify-content: center">
+<div class="bob" role="img" aria-label="המחשה: סיכום פגישה אוטומטי עם משימות ואחראים" style="width: 100%; max-width: 520px; background: #FFFFFF; border-radius: 22px; box-shadow: 0 34px 60px -30px rgba(201,42,116,.55); padding: 20px; display: flex; flex-direction: column; gap: 14px; font-size: 14.5px; line-height: 1.5; animation-duration: 7s; animation-delay: 1s">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 10px">
+<div><div style="font-weight: 700; font-size: 16px">סיכום פגישה · ספק חדש</div><div style="font-size: 12.5px; color: #6B5884">נוצר אוטומטית מההקלטה · 2 דק' אחרי הפגישה</div></div>
+<span style="background: #FFE3F1; color: #9C1F5C; border-radius: 999px; padding: 3px 12px; font-size: 12.5px; font-weight: 700">חדש</span>
+</div>
+<div style="background: #FBF5FF; border-radius: 14px; padding: 12px 14px">סוכם על הזמנה ניסיונית קטנה, משלוח עד סוף החודש ותשלום שוטף +30.</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<div style="font-weight: 700; font-size: 13px; color: #6B5884">משימות</div>
+<div style="display: flex; align-items: center; gap: 10px"><span style="width: 20px; height: 20px; border-radius: 6px; background: linear-gradient(135deg,#C92A74,#7B3FE4); display: grid; place-items: center"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span><span style="flex: 1; text-decoration: line-through; color: #8B7A9E">לשלוח לספק מפרט מעודכן</span><span style="font-size: 12.5px; background: #F3ECFA; border-radius: 999px; padding: 2px 10px">דנה</span></div>
+<div style="display: flex; align-items: center; gap: 10px"><span style="width: 20px; height: 20px; border-radius: 6px; border: 2px solid #CDB6FF"></span><span style="flex: 1">לאשר מחיר סופי</span><span style="font-size: 12.5px; background: #F3ECFA; border-radius: 999px; padding: 2px 10px">אני</span></div>
+<div style="display: flex; align-items: center; gap: 10px"><span style="width: 20px; height: 20px; border-radius: 6px; border: 2px solid #CDB6FF"></span><span style="flex: 1">לתאם פגישת המשך</span><span style="font-size: 12.5px; background: #FFE3F1; color: #9C1F5C; border-radius: 999px; padding: 2px 10px">עד יום ה'</span></div>
+</div>
+</div>
+</div>
+<div style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 15px; font-weight: 700; color: #7B3FE4">מסכם פגישות</div>
+<h3 style="margin: 0; font-family: 'Secular One', sans-serif; font-weight: 400; font-size: 32px; line-height: 1.2">יוצאים מפגישה, והסיכום כבר מחכה במייל</h3>
+<p style="margin: 0; color: #4D3A63">הקלטה הופכת לסיכום קצר ולרשימת משימות עם אחראים ותאריכים. אף אחד לא צריך לרשום, ושום דבר לא נופל בין הכיסאות.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px">
+<span style="background: #FFFFFF; border-radius: 14px; padding: 6px 14px; font-weight: 700"><span class="shine">27</span> שעות מרעיון לכלי עובד</span>
+</div>
+</div>
+</div>
+
+<!-- Automation -->
+<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
+<div style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 15px; font-weight: 700; color: #C92A74">אוטומציה</div>
+<h3 style="margin: 0; font-family: 'Secular One', sans-serif; font-weight: 400; font-size: 32px; line-height: 1.2">לקוח נרשם, וכל השאר קורה לבד</h3>
+<p style="margin: 0; color: #4D3A63">הפרטים נכנסים לטבלה, הלקוח מקבל אישור, ואתם מקבלים התראה. מחברת בין הכלים שכבר יש לכם: גוגל, אאוטלוק, וואטסאפ ומה שצריך.</p>
+</div>
+<div style="flex: 999 1 460px; min-width: 0; display: flex; justify-content: center">
+<div role="img" aria-label="המחשה: טופס, טבלה, מייל אישור ותזכורת שמחוברים ברצף אוטומטי" style="width: 100%; max-width: 560px; background: #FFFFFF; border-radius: 22px; box-shadow: 0 34px 60px -30px rgba(91,33,182,.6); padding: 24px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px">
+<div style="background: #FFE3F1; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 6px; animation: pulse 3s infinite">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9C1F5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"></rect><path d="M8 8h8M8 12h8M8 16h5"></path></svg>
+<b>1 · טופס הרשמה</b><span style="font-size: 13.5px; color: #6B5884">נועה כהן נרשמה לסדנה</span>
+</div>
+<div style="background: #F1E6FF; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 6px; animation: pulse 3s .75s infinite">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B21B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M3 10h18M9 4v16"></path></svg>
+<b>2 · נכנס לטבלה</b><span style="font-size: 13.5px; color: #6B5884">שורה חדשה, בלי העתקה</span>
+</div>
+<div style="background: #F1E6FF; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 6px; animation: pulse 3s 1.5s infinite">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B21B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>
+<b>3 · אישור ללקוחה</b><span style="font-size: 13.5px; color: #6B5884">מייל אישי עם כל הפרטים</span>
+</div>
+<div style="background: #FFE3F1; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 6px; animation: pulse 3s 2.25s infinite">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9C1F5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.7 21a2 2 0 0 1-3.4 0"></path></svg>
+<b>4 · תזכורת יום לפני</b><span style="font-size: 13.5px; color: #6B5884">בוואטסאפ, אוטומטית</span>
+</div>
+<div style="grid-column: 1 / -1; height: 6px; border-radius: 999px; background: repeating-linear-gradient(90deg,#C92A74 0 20px,#E9D5FF 20px 40px); animation: flow 1s linear infinite" aria-hidden="true"></div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ═════ STATS ═════ -->
+<div style="max-width: 1180px; margin: 0 auto; padding: 72px 24px 0">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px">
+<div class="lift" style="background: #FFFFFF; border-radius: 22px; padding: 22px; text-align: center; box-shadow: 0 10px 30px -18px rgba(123,63,228,.45)"><div class="shine" dir="ltr" style="font-family: 'Secular One', sans-serif; font-size: 46px; line-height: 1.1">20→3</div><div style="font-weight: 500">דקות להצעת מחיר</div></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 22px; padding: 22px; text-align: center; box-shadow: 0 10px 30px -18px rgba(123,63,228,.45)"><div class="shine" dir="ltr" style="font-family: 'Secular One', sans-serif; font-size: 46px; line-height: 1.1">100%</div><div style="font-weight: 500">פניות נענו תוך 24 שעות</div></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 22px; padding: 22px; text-align: center; box-shadow: 0 10px 30px -18px rgba(123,63,228,.45)"><div class="shine" dir="ltr" style="font-family: 'Secular One', sans-serif; font-size: 46px; line-height: 1.1">90+</div><div style="font-weight: 500">משחקי הדרכה שבניתי</div></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 22px; padding: 22px; text-align: center; box-shadow: 0 10px 30px -18px rgba(123,63,228,.45)"><div class="shine" dir="ltr" style="font-family: 'Secular One', sans-serif; font-size: 46px; line-height: 1.1">8+</div><div style="font-weight: 500">שנים מלמדת אנשים כלים חדשים</div></div>
+</div>
+</div>
+
+<!-- ═════ HOW IT WORKS ═════ -->
+<div style="max-width: 1180px; margin: 0 auto; padding: 84px 24px; display: flex; flex-direction: column; gap: 32px">
+<h2 style="margin: 0; font-family: 'Secular One', sans-serif; font-weight: 400; font-size: clamp(30px, 3.8vw, 46px)">איך זה עובד</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="width: 58px; height: 58px; border-radius: 50%; background: linear-gradient(135deg,#C92A74,#7B3FE4); color: #FFFFFF; display: grid; place-items: center; font-family: 'Secular One', sans-serif; font-size: 26px; animation: pulse 2.6s infinite">1</div>
+<h3 style="margin: 0; font-size: 22px">שיחה קצרה</h3>
+<p style="margin: 0; color: #4D3A63">על קפה בלובי או בטלפון. אתם מספרים איך נראה יום עבודה, ואני מקשיבה איפה הולך הזמן.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="width: 58px; height: 58px; border-radius: 50%; background: linear-gradient(135deg,#C92A74,#7B3FE4); color: #FFFFFF; display: grid; place-items: center; font-family: 'Secular One', sans-serif; font-size: 26px; animation: pulse 2.6s .8s infinite">2</div>
+<h3 style="margin: 0; font-size: 22px">הצעה אחת, ממוקדת</h3>
+<p style="margin: 0; color: #4D3A63">אני מציעה את הצעד הכי קטן שייתן את החיסכון הכי גדול, ואומרת מראש מה הוא יעשה ומה לא.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="width: 58px; height: 58px; border-radius: 50%; background: linear-gradient(135deg,#C92A74,#7B3FE4); color: #FFFFFF; display: grid; place-items: center; font-family: 'Secular One', sans-serif; font-size: 26px; animation: pulse 2.6s 1.6s infinite">3</div>
+<h3 style="margin: 0; font-size: 22px">בונה, מלמדת ונשארת זמינה</h3>
+<p style="margin: 0; color: #4D3A63">אני מקימה את הכלי, מלמדת אתכם להשתמש בו, ומלווה עד שזה עובד לבד. ואם משהו נתקע, אני גרה כמה קומות מכם.</p>
+</div>
+</div>
+</div>
+
+<!-- ═════ WHY ME ═════ -->
+<div style="max-width: 1180px; margin: 0 auto; padding: 0 24px 84px">
+<div style="position: relative; overflow: hidden; background: #FFFFFF; border-radius: 34px; padding: clamp(28px, 4vw, 52px); display: flex; flex-wrap: wrap; gap: 40px; align-items: center; box-shadow: 0 24px 50px -30px rgba(123,63,228,.55)">
+<div aria-hidden="true" style="position: absolute; width: 320px; height: 320px; border-radius: 50%; background: #FFD1E6; filter: blur(60px); opacity: .7; top: -120px; left: -80px; animation: drift1 15s ease-in-out infinite"></div>
+<div style="position: relative; flex: 1 1 220px; display: flex; justify-content: center">
+<div style="position: relative; width: 220px">
+<div aria-hidden="true" style="position: absolute; inset: -8px; border-radius: 50%; background: linear-gradient(90deg,#C92A74,#8B4FF0,#FF7BB8,#C92A74); background-size: 200% auto; animation: shimmer 3s linear infinite"></div>
+<img src="../profile.jpg" alt="מיכל פימה בשן" style="position: relative; display: block; width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 5px solid #FFFFFF">
+<i class="spark" aria-hidden="true" style="width: 24px; height: 24px; background: #FFB800; top: 4px; right: 6px"></i>
+<i class="spark" aria-hidden="true" style="width: 14px; height: 14px; background: #7B3FE4; bottom: 18px; left: -6px; animation-delay: .9s"></i>
+</div>
+</div>
+<div style="position: relative; flex: 999 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-family: 'Secular One', sans-serif; font-weight: 400; font-size: clamp(28px, 3.4vw, 42px); line-height: 1.2">למה <span class="shine">דווקא אני?</span></h2>
+<p style="margin: 0"><b>אני באה מעולם ההדרכה.</b> יותר משמונה שנים אני בונה לומדות והדרכות לארגונים, ולכן אני יודעת שכלי טוב הוא כלי שאנשים באמת משתמשים בו.</p>
+<p style="margin: 0"><b>אני בונה בעצמי.</b> לא מתווכת ולא שולחת לספק. מהרעיון ועד הכלי העובד, זו אני.</p>
+<p style="margin: 0"><b>אני מדברת בגובה העיניים.</b> בלי ז'רגון טכנולוגי. אם משהו לא ברור, אני מסבירה שוב, בסבלנות.</p>
+</div>
+</div>
+</div>
+
+<!-- ═════ FINAL CTA ═════ -->
+<div style="position: relative; overflow: hidden; background: #2A1240; color: #FBF3FF">
+<div aria-hidden="true" style="position: absolute; width: 420px; height: 420px; border-radius: 50%; background: #C92A74; filter: blur(90px); opacity: .45; top: -160px; right: 10%; animation: drift2 17s ease-in-out infinite"></div>
+<div aria-hidden="true" style="position: absolute; width: 380px; height: 380px; border-radius: 50%; background: #7B3FE4; filter: blur(90px); opacity: .45; bottom: -180px; left: 8%; animation: drift1 14s ease-in-out infinite"></div>
+<i class="spark" aria-hidden="true" style="width: 22px; height: 22px; background: #FFD45C; top: 60px; left: 20%"></i>
+<i class="spark" aria-hidden="true" style="width: 14px; height: 14px; background: #FF7BB8; bottom: 70px; right: 18%; animation-delay: 1.2s"></i>
+<i class="spark" aria-hidden="true" style="width: 18px; height: 18px; background: #C4A8FF; top: 45%; right: 6%; animation-delay: .6s"></i>
+<div style="position: relative; max-width: 1180px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; align-items: center; gap: 20px; text-align: center">
+<h2 style="margin: 0; font-family: 'Secular One', sans-serif; font-weight: 400; font-size: clamp(32px, 4.4vw, 54px); line-height: 1.15; max-width: 16em">מה גוזל לכם הכי הרבה זמן בעסק? <span style="color: #FF9ECB">ספרו לי.</span></h2>
+<p style="margin: 0; font-size: 20px; color: #D9C8EE; max-width: 30em">הודעה אחת בוואטסאפ, ואחזור אליכם לשיחה קצרה ובלי שום התחייבות.</p>
+<a class="btn" href="https://wa.me/972507167357?text=%D7%94%D7%99%D7%99%20%D7%9E%D7%99%D7%9B%D7%9C%2C%20%D7%A8%D7%90%D7%99%D7%AA%D7%99%20%D7%90%D7%AA%20%D7%94%D7%93%D7%A3%20%D7%A9%D7%9C%D7%9A" style="display: inline-flex; align-items: center; gap: 10px; min-height: 58px; padding: 0 32px; border-radius: 999px; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 19px; box-shadow: 0 14px 34px -12px rgba(201,42,116,.8)">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>
+כתבו לי בוואטסאפ
+</a>
+<div style="margin-top: 22px; font-size: 17px; color: #D9C8EE">או השאירו פרטים, ואחזור אליכם:</div>
+<form action="https://formsubmit.co/michalpima@gmail.com" method="POST" style="width: 100%; max-width: 560px; background: rgba(255,255,255,.07); border: 1.5px solid #5A3D7A; border-radius: 26px; padding: 24px; display: flex; flex-direction: column; gap: 14px; text-align: right">
+<input type="hidden" name="_subject" value="פנייה חדשה מדף הנחיתה">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://michalpima-source.github.io/services/thanks.html">
+<input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="display: none">
+<div style="display: flex; flex-wrap: wrap; gap: 14px">
+<label style="flex: 1 1 200px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; font-weight: 500">שם
+<input type="text" name="שם" required="" autocomplete="name" style="min-height: 48px; border-radius: 14px; border: 1.5px solid #6B4F8C; background: #FFFFFF; color: #2A1240; padding: 0 14px; font: inherit; font-size: 17px; font-weight: 400">
+</label>
+<label style="flex: 1 1 200px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; font-weight: 500">טלפון
+<input type="tel" name="טלפון" required="" autocomplete="tel" dir="ltr" style="min-height: 48px; border-radius: 14px; border: 1.5px solid #6B4F8C; background: #FFFFFF; color: #2A1240; padding: 0 14px; font: inherit; font-size: 17px; font-weight: 400; text-align: right">
+</label>
+</div>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 15px; font-weight: 500">מה העסק, ובמה אפשר לעזור?
+<textarea name="הודעה" rows="3" style="border-radius: 14px; border: 1.5px solid #6B4F8C; background: #FFFFFF; color: #2A1240; padding: 12px 14px; font: inherit; font-size: 17px; font-weight: 400; resize: vertical"></textarea>
+</label>
+<button type="submit" class="btn" style="align-self: flex-start; min-height: 50px; padding: 0 28px; border: 0; border-radius: 999px; color: #FFFFFF; font: inherit; font-weight: 700; font-size: 17px; cursor: pointer">שלחו לי</button>
+</form>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 24px; font-size: 16px; color: #D9C8EE; margin-top: 8px">
+<span dir="ltr">050-716-7357</span>
+<a href="mailto:michalpima@gmail.com" style="color: #FF9ECB" dir="ltr">michalpima@gmail.com</a>
+<a href="https://www.linkedin.com/in/michal-pima" style="color: #FF9ECB">לינקדאין</a>
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>
